@@ -1,0 +1,49 @@
+/* Reset základních stylů */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Styl pro celé tělo stránky */
+body {
+    background-color: #e6d5c3; /* Světle hnědé pozadí */
+    color: #5a3e2b; /* Tmavě hnědý text */
+    line-height: 1.6;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Hlavní nadpis */
+h1 {
+    color: #8b5e3b; /* Středně hnědá */
+    margin-bottom: 10px;
+}
+
+/* Odstavec */
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Kontejner stránky */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #f5e1c8; /* Krémově hnědá */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Odkazy */
+a {
+    color: #8b4513; /* Sytě hnědá */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
