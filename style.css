@@ -6,11 +6,10 @@
     font-family: Arial, sans-serif;
 }
 
-/* Styl pro celé tělo stránky */
+/* Celé pozadí webu */
 body {
-    background-color: #e6d5c3; /* Světle hnědé pozadí */
+    background-color: #e6d5c3; /* Světle hnědá */
     color: #5a3e2b; /* Tmavě hnědý text */
-    line-height: 1.6;
     text-align: center;
     padding: 20px;
 }
@@ -31,7 +30,7 @@ p {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    background: #f5e1c8; /* Krémově hnědá */
+    background: #f5e1c8; /* Krémová */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
