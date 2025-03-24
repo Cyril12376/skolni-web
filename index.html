@@ -1,67 +1,65 @@
-<header>
-    <div class="logo">Historie</div>
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historie</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>Historie světa</header>
     <nav>
-        <ul>
-            <li><a href="#">Domů</a></li>
-            <li><a href="#">Období</a></li>
-            <li><a href="#">Osobnosti</a></li>
-            <li><a href="#">Kontakt</a></li>
-        </ul>
+        <a href="#starovek">Starověk</a>
+        <a href="#stredovek">Středověk</a>
+        <a href="#novovek">Novověk</a>
+        <a href="#moderna">Moderní doba</a>
+        <a href="#kontakty">Kontakt</a>
     </nav>
-</header>
-<section class="history-benefits">
-    <div class="history-header">
-        <h2>Proč studovat historii?</h2>
-        <p>Historie nám pomáhá pochopit minulost, formovat přítomnost a inspirovat budoucnost.</p>
+    <div class="container">
+        <h2>Vítejte na stránce o historii!</h2>
+        <p>Prozkoumejte jednotlivá období a objevujte zajímavé informace.</p>
+        
+        <div class="timeline">
+            <div class="event" id="starovek">
+                <h3>Starověk</h3>
+                <p>Období prvních civilizací, vznik písma a velké říše jako Egypt nebo Řím.</p>
+            </div>
+            <div class="event" id="stredovek">
+                <h3>Středověk</h3>
+                <p>Období rytířů, hradů a feudalismu.</p>
+            </div>
+            <div class="event" id="novovek">
+                <h3>Novověk</h3>
+                <p>Objevení Ameriky, renesance a osvícenství.</p>
+            </div>
+            <div class="event" id="moderna">
+                <h3>Moderní doba</h3>
+                <p>Průmyslová revoluce, světové války a technologický pokrok.</p>
+            </div>
+        </div>
+        
+        <h2>Kvíz o historii</h2>
+        <p>Jaké období patří Karlu IV.?</p>
+        <button onclick="checkAnswer('spravna')">Středověk</button>
+        <button onclick="checkAnswer('spatna')">Moderní doba</button>
     </div>
-    <div class="history-grid">
-        <div class="history-card">
-            <span class="icon">🏛</span>
-            <h3>Poučení z minulosti</h3>
-            <p>Historie nás učí, jak se vyvarovat chyb minulosti a lépe se rozhodovat v současnosti.</p>
-        </div>
-        <div class="history-card">
-            <span class="icon">🌍</span>
-            <h3>Poznání kultur</h3>
-            <p>Porozumění historickým událostem nám pomáhá lépe chápat různé civilizace a jejich vývoj.</p>
-        </div>
-        <div class="history-card">
-            <span class="icon">🧠</span>
-            <h3>Zlepšení kritického myšlení</h3>
-            <p>Studium historie rozvíjí analytické schopnosti a umožňuje lepší porozumění světu.</p>
-        </div>
-        <div class="history-card">
-            <span class="icon">⚔️</span>
-            <h3>Inspirace velkými osobnostmi</h3>
-            <p>Příběhy velkých historických postav nás mohou motivovat k dosažení vlastních cílů.</p>
-        </div>
-    </div>
-</section>
-<section class="history-periods">
-    <div class="history-header">
-        <h2>Historická období</h2>
-        <p>Každá éra přinesla jedinečné změny, které formovaly svět, jak ho známe dnes.</p>
-    </div>
-    <div class="history-grid">
-        <div class="history-card">
-            <span class="icon">🏺</span>
-            <h3>Starověk</h3>
-            <p>Období prvních civilizací, říší a písemných záznamů (cca 3000 př. n. l. – 500 n. l.).</p>
-        </div>
-        <div class="history-card">
-            <span class="icon">🏰</span>
-            <h3>Středověk</h3>
-            <p>Éra království, rytířů a katedrál (500–1500 n. l.).</p>
-        </div>
-        <div class="history-card">
-            <span class="icon">🎨</span>
-            <h3>Renesance</h3>
-            <p>Znovuzrození umění, vědy a objevů (14.–17. století).</p>
-        </div>
-        <div class="history-card">
-            <span class="icon">⚙️</span>
-            <h3>Moderní doba</h3>
-            <p>Průmyslová revoluce, technologický pokrok a globalizace (18. století – současnost).</p>
-        </div>
-    </div>
-</section>
+    
+    <footer id="kontakty">
+        <h3>Kontakt</h3>
+        <p>Email: Historie@academicschool.com</p>
+        <p>Telefon: +420 773 687 592</p>
+        <p>Adresa: Studentské náměstí 1531
+Mařatice, 686 01 Uherské Hradiště</p>
+    </footer>
+    
+    <script>
+        function checkAnswer(answer) {
+            if (answer === 'spravna') {
+                alert('Správně!');
+            } else {
+                alert('Špatně, zkus to znovu.');
+            }
+        }
+    </script>
+</body>
+</html>
