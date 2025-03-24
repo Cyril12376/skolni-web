@@ -1,95 +1,60 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f9fa;
-    color: #333;
-    text-align: center;
-}
-
-header {
-    background: #1e3a8a;
-    color: white;
+    font-family: "Georgia", serif;
+    background-color: #f5f0e1;
+    color: #3e2723;
+    margin: 20px;
     padding: 20px;
-    font-size: 28px;
-    font-weight: bold;
-    text-transform: uppercase;
 }
 
-nav {
-    background: #334155;
-    padding: 15px;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-nav a {
-    color: white;
+a {
+    color: #6d4c41;
     text-decoration: none;
-    font-size: 18px;
     font-weight: bold;
-    transition: color 0.3s;
 }
 
-nav a:hover {
-    color: #facc15;
+a:hover {
+    text-decoration: underline;
 }
 
-.container {
-    padding: 40px;
-    max-width: 1000px;
-    margin: auto;
-    background: white;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+h1, h2 {
+    font-family: "Garamond", serif;
+    border-bottom: 2px solid #8d6e63;
+    padding-bottom: 5px;
+    color: #5d4037;
 }
 
-.timeline {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
+h1 {
+    font-size: 28px;
 }
 
-.event {
-    background: white;
-    padding: 20px;
-    margin: 10px;
-    border-left: 8px solid #1e3a8a;
-    width: 70%;
-    border-radius: 8px;
-    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
+h2 {
+    font-size: 22px;
 }
 
-.event:hover {
-    transform: translateY(-5px);
-    box-shadow: 3px 6px 12px rgba(0, 0, 0, 0.2);
+p {
+    font-size: 18px;
+    line-height: 1.6;
 }
 
 button {
-    background: #1e3a8a;
-    color: white;
+    background-color: #8d6e63;
+    color: #fff;
     border: none;
-    padding: 12px 24px;
-    margin: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
     cursor: pointer;
-    font-size: 18px;
-    border-radius: 6px;
-    transition: background 0.3s, transform 0.2s;
+    border-radius: 5px;
 }
 
 button:hover {
-    background: #3b82f6;
-    transform: scale(1.1);
+    background-color: #6d4c41;
 }
 
-footer {
-    background: #1e3a8a;
-    color: white;
-    padding: 30px;
-    margin-top: 40px;
-    font-size: 18px;
-    font-weight: bold;
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff8e1;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
